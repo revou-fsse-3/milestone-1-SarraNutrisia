@@ -44,7 +44,7 @@ The HTML Structure for each page is as follows:
 * Footer
 	* Copyright
   
-You can check the Deployment of this website by clicking this link : [Link Netlify](https://statuesque-lamington-6ee922.netlify.app) ![Deploy Icon](images/readme/Deploy_Icon.png)
+You can check the Deployment of this website by clicking this link : [Link Netlify](https://wondrous-quokka-805706.netlify.app/) ![Deploy Icon](images/readme/Deploy_Icon.png)
   
 ***
 ## 2. CSS File ![CSS Icon](images/readme/CSS_Icon.png)
@@ -169,7 +169,7 @@ The Domain Name System (DNS) turns domain names into IP addresses, which browser
    ![Link Domain Ready](images/readme/Connect_Netlify_Niagahoster_17_New.png) 
 
 
-You can check domain of this project by clicking this link : [Domain Niagahoster](https://sarranut.online/) ![Domain Icon](images/readme/Domain_Icon.png)
+You can check domain of this project by clicking this link : [Domain Niagahoster](https://milestone1.sarranut.online/) ![Domain Icon](images/readme/Domain_Icon.png)
 
 ***
 
