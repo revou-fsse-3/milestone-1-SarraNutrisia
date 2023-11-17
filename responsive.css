@@ -1,0 +1,80 @@
+.mobile {
+    display: none;
+  }
+  
+.desktop {
+    display: block;
+  }
+  
+@media only screen and (max-width: 768px) {
+.mobile {
+      display: block;
+    }
+  
+.desktop {
+      display: none;
+    }
+  }
+
+ /* for mobile, tablet and desktop */
+ @media only screen and (max-width: 375px) { 
+  #YayasanTahfidzSulaimaniyah > h1{
+    font-size: 1em;
+}
+  #YayasanTahfidzSulaimaniyah > p{
+    font-size: 1em;
+}
+  #PenerbitFazilet > h1{
+    font-size: 1em; 
+}
+  #PenerbitFazilet > p{
+    font-size: 1em;
+}
+  #HisarGlobalIndonesia > h1{
+  font-size: 1em; 
+}
+  #HisarGlobalIndonesia > p{
+  font-size: 1em;
+}
+  #TorosFarmIndonesia > h1{
+  font-size: 1em; 
+}
+  #TorosFarmIndonesia > p{
+  font-size: 1em;
+}
+  #EnderunIslamicPreschool > h1{
+  font-size: 1em; 
+}
+  #EnderunIslamicPreschool > p{
+  font-size: 1em; 
+}
+  #DapurTurki > h1{
+  font-size: 1em; 
+}
+  #DapurTurki > p{
+  font-size: 1em; 
+}
+  #StudiesInTurkey > h1{
+  font-size: 1em; 
+}
+  #StudiesInTurkey > p{
+  font-size: 1em; 
+}}
+
+@media only screen and (max-width: 768px) { 
+  #header > h1{
+    font-size: 1.5em;
+}
+  #header > p{
+    font-size: 1.5em;
+}}
+
+@media only screen and (max-width: 768px) { 
+  #Sulaimaniyah-button {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+    iframe {
+      max-width: 480px;
+    }

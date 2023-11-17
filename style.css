@@ -1,0 +1,420 @@
+@font-face {
+    font-family: YsabeauOffice;
+    src: url(fonts/YsabeauOffice-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: YsabeauOffice;
+    src: url(fonts/YsabeauOffice-SemiBold.ttf);
+    font-weight: bold;
+  }
+  
+  body {
+      font-family: YsabeauOffice, "Open Sans", Cambria;
+      margin: 0;
+      background-color: #F5EFE7;
+    }
+  
+  .desktop > li{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 20px;
+    cursor: pointer;
+    
+  }
+
+  .desktop > li:hover {
+    background-color: #D4C2AD;
+    border-radius: 25%;
+    padding: 10px;
+  }
+  
+  /* This is the beginning of tablink */
+  
+  .tablink {
+    background-color: #D0D4D9;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #486273;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #YayasanTahfidzSulaimaniyah {
+    background-image: url(images/baca_Al-Quran.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    justify-content: center;
+    padding-top: 48px;
+    text-align: center;
+    margin: 16px;
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 3px 3px gray;
+    color: #F2E5D5;
+  }
+  
+  #PenerbitFazilet {
+    background-image:url(images/Fazilet-Mobile-YT-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    justify-content: center;
+    padding-top: 48px;
+    text-align: center;
+    margin: 16px;
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 3px 3px white;
+    color: grey;
+  }
+  
+  #HisarGlobalIndonesia {
+    background-image:url(images/HisarUmroh.webp);
+    background-size:cover;
+    background-position: top center;
+    background-position: center;
+    height: 320px;
+    justify-content: center;
+    padding-top: 48px;
+    text-align: center;
+    margin: 16px;
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 2px 2px gray;
+    color: #0C3C59;
+  }
+  
+  #TorosFarmIndonesia {
+    background-color:#D90D1E;
+    background-image:url(images/AyamToros.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    justify-content: center;
+    padding-top: 48px;
+    text-align: center;
+    margin: 16px;
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 3px 3px gray;
+    color: white;
+  }
+  
+  #EnderunIslamicPreschool {
+    background-color:#F2AD94;
+    background-image:url(images/TekunBersamaEnderun.png);
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    justify-content: center;
+    padding-top: 48px;
+    text-align: center;
+    margin: 16px;
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 2px 2px gray;
+    color: #0C3C59;
+  }
+  
+  #DapurTurki {
+    background-color:#BF848F;
+    background-image:url(images/MakandiDapurTurki.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    justify-content: center;
+    padding-top: 48px;
+    text-align: center;
+    margin: 16px;
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+    color: #F2E5D5;
+  }
+  
+  #StudiesInTurkey {
+    background-color:#0C3C59;
+    background-image:url(images/foto_keberangkatan_19.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 320px;
+    justify-content: center;
+    padding-top: 48px;
+    text-align: center;
+    margin: 16px;
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 3px 3px #F2E5D5;
+    color: #03258C;
+  }
+  #Sulaimaniyah-facts {
+    margin-top: 100px; 
+  }
+  
+  #Sulaimaniyah-visimisi {
+    margin-top: 100px;
+  }
+  
+  #section-video {
+    margin-top: 100px;
+  }
+  
+  /* This is the end of tablink */
+  
+  
+  /* This is the beginning of hamburger icon */
+  .box {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 10px;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 8px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -8px) rotate(45deg);
+  }
+  
+  /* This is the end of hamburger icon */
+  
+  section {
+      margin: 0 16px;
+    }
+    
+  section.full-screen {
+      margin: 0;
+    }
+  
+  nav {
+      position: fixed;
+      background-color: #F5EFE7;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      height: 52px;
+      border-bottom: 2px solid #222222;
+      z-index: 99999;
+    }
+  
+  nav a {
+    color: #222222;
+    text-decoration: none;
+  }
+  
+  
+  nav > ul {
+      margin-left: auto;
+      margin-right: 16px;
+    }
+  
+  nav > ul > li {
+      display: inline-block;
+    }
+  
+  nav > span > img {
+      height: 32px;
+      width: auto;
+      padding: 8px;
+    }
+  
+  nav > span {
+      display: flex;
+      align-items: center;
+    }
+  
+  header {
+      text-align: center;
+      color: #449991;
+      background-color: #EFDFCC;
+      height: 320px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 48px;
+      background-image:url(images/ramazan.png);
+      background-position: top center;
+      background-size: cover;
+    }
+  
+  header img:hover{
+      transform: scale(1.2s);
+  }
+  
+  .desktop{
+    cursor: pointer;
+  }
+  
+  .relative-container{
+    cursor: pointer;
+    position: relative;
+  }
+  
+  header h1 {
+      margin: 16px;
+      font-size: 300%;
+      font-weight: bold;
+      animation-duration: 3s;
+      animation-name: slidein;
+      text-shadow: 2px 2px gray;
+    }
+  
+  header p {
+      margin: 0;
+      font-size: 300%;
+      text-shadow: 2px 2px gray;
+    }
+  
+    article h2 {
+      margin: 16px;
+      margin-top: 100px;
+  
+    }
+  
+    article p {
+      margin: 16px;
+  
+    }
+    
+  img {
+      width: 100%;
+    }
+  
+  figure {
+    border-radius: 5% 5% 5% 5%;
+    border-style: groove;
+    border-width: 10px;
+  }
+    
+  h2 {
+      font-weight: 300%;
+      text-align: center;
+      text-decoration: overline;
+      font-size: 40px;
+    }
+  
+  #Sulaimaniyah-button {
+    display: flex;
+  }
+  
+  #section-video .flex-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+   
+  input[type="text"],
+  input[type="email"],
+  textarea {
+      width: 100%;
+      padding: 4px 4px;
+      margin: 8px 0;
+      display: block;
+    }
+  
+  input[type="date"] {
+    margin: 8px 0;
+    display: block;
+  }
+    
+  #form-section {
+      background-color: #486273;
+      color: #F5EFE7;
+      padding: 8px;
+      margin-top: 16px;
+    }
+    
+  #form-section form {
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+  button[type="submit"] {
+      color: #F5EFE7;
+      background-color: transparent;
+      border: 1px solid #F5EFE7;
+      border-radius: 4px;
+      width: 100%;
+      padding: 8px 16px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+  /*This is the beginning of styling tombol sosmed*/
+  .tombol-sosmed{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tombol-sosmed a{
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 8px;
+  }
+
+  .tombol-sosmed a::before{
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background: linear-gradient(45deg,#3498db,#16a085);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.3s ease-in;
+  }
+  
+  .tombol-sosmed a:hover::before{
+    trasnform: scale(0);
+  }
+
+  .tombol-sosmed a i{
+    transition: 0.3s ease-in;
+  }
+
+  .tombol-sosmed a:hover i{
+    background: linear-gradient(45deg,#3498db,#16a085);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+   /*This is the end of styling tombol sosmed*/
+    
