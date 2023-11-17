@@ -16,7 +16,7 @@
 *CSS Version :* CSS 3
 
 ***
-As a web developer, the three main languages we use to build websites are HTML, CSS, and JavaScript. We use HTML to structure the site, CSS to design and layout the web page, and JavaScript to create dynamically updating content. For this week, I have build a simple website about Kateda Membership Club using HTML, CSS and JavaScript.
+As a web developer, the three main languages we use to build websites are HTML, CSS, and JavaScript. We use HTML to structure the site, CSS to design and layout the web page, and JavaScript to create dynamically updating content. For this week, I have build a simple website about company profile of Yayasan Tahfidz Sulaimaniyah using HTML, CSS and JavaScript.
 ***
 ## Table of Contents ![Content Icon](images/readme/Content_Icon.png)
 1. HTML Structure
@@ -32,16 +32,19 @@ The HTML Structure for each page is as follows:
 * Link to CSS Files
 * Link to JavaScript File
 * Header
-	* Home Link
-	* About Link
-	* Contact Link
+	* Beranda
+	* Tentang Kami
+	* Visi
+	* Mitra
+	* Kontak
 * Content
-	* Activities
-	* Facts
-	* Technic
+	* Tentang Kami
+	* Visi dan Misi
+	* Mitra Yayasan Sulaimaniyah
 	* Video
 	* Form
 * Footer
+    * Kontak 
 	* Copyright
   
 You can check the Deployment of this website by clicking this link : [Link Netlify](https://wondrous-quokka-805706.netlify.app/) ![Deploy Icon](images/readme/Deploy_Icon.png)
@@ -64,11 +67,100 @@ There is one JavaScript file in this theme:
 * index.js
 
 ##### index.js
-This theme use the alert function and dark mode function of JavaScript.
+This theme use the alert function and dom function of JavaScript.
 
 ***
-# Deployment Process & Custom Domain ![Deployment Domain](images/readme/Deployment_Domain.png)
-There are few steps in Deployment Flow, Buy A Domain, Setting Up DNS and Connect Domain to Netlify.
+# Building A Simple Project Website ![Deployment Domain](images/readme/Deployment_Domain.png)
+There are few steps to Building A Simple Project Website, there are Determine The Dependencies, How To Set Up The Project, Deployment Flow, Buy A Domain, Connect Domain to Netlify.
+
+***
+## Determine The Dependencies ![Dependencies Icon](images/readme/adaptation.png)
+
+1. HTML 
+2. CSS 
+3. JavaScript
+4. Internal & External Source
+   * images
+   * icons
+   * fonts
+  
+
+***
+## How To Set Up The Project ![Set Up](images/readme/seo.png)
+
+1. First thing first, make sure you had log in to canvas and click the submission link to create repository in github classroom.
+
+![Log In to Canvas](images/readme/How_To_Submit_Assigntment_1.png)
+
+![Repository Has Been Created](images/readme/How_To_Submit_Assigntment_2.png)
+
+
+2. Then you are automatically connected to your repository in github classroom. Don't forget to clone the repository from github into your local storage. If you had clone that repository, then start to create your website in order to submit the assigntment to github classroom. This are steps you could follow until pushing your project into github classroom.
+
+![Copy SSH to Clone](images/readme/How_To_Submit_Assigntment_3.png)
+
+![Clone with Git Bash](images/readme/How_To_Submit_Assigntment_4.png)
+
+![Add with Git Bash](images/readme/How_To_Submit_Assigntment_5.png)
+
+![Commit with Git Bash](images/readme/How_To_Submit_Assigntment_6.png)
+
+![Push with Git Bash](images/readme/How_To_Submit_Assigntment_7.png)
+
+![Push with Git Bash](images/readme/How_To_Submit_Assigntment_8.png)
+
+
+3. After push your project into github classroom, don't forget to change the visibility in your repository from "Private" into "Public" before deploy your project on Netlify, as follows.
+
+![Setting Respository to Public](images/readme/How_To_Submit_Assigntment_9.png)
+
+![Change Visibility](images/readme/How_To_Submit_Assigntment_10.png)
+
+![Make Repository Public](images/readme/How_To_Submit_Assigntment_11.png)
+
+![Read and Understand The Effect](images/readme/How_To_Submit_Assigntment_12.png)
+
+![Last Step Make Repository Public](images/readme/How_To_Submit_Assigntment_13.png)
+
+![Confirm Access](images/readme/How_To_Submit_Assigntment_14.png)
+
+![Check Repository on GitHub Classroom](images/readme/How_To_Submit_Assigntment_15.png)
+
+![Visibility Has Been Changed to Public](images/readme/How_To_Submit_Assigntment_16.png)
+
+
+4. After this you can deploy the project to Netlify. If there is any revision on your project, you can submit again the revision into repository by following step 2 and 3 without clone the repository.
+
+
+5. I want to explain on how i got the icons, fonts, and images to running this project. You can click this link below to use it too.
+
+   * Go to [Flaticon Website](https://www.flaticon.com/icons) ![Flaticon Website](images/readme/Icon_Deployment.png)
+
+   * Go to [Google Fonts Website](https://fonts.google.com/icons) ![Google Fonts Website](images/readme/Icon_Deployment.png)
+
+   * Go to [Yayasan Tahfidz Sulaimaniyah Website](https://www.tahfidzsulaimaniyah.org/) ![Yayasan Tahfidz Sulaimaniyah Website](images/readme/Icon_Deployment.png)
+
+
+6. Some of images can also slowing your website's performance because the size are too large. You can compress the images into smaller size with tiny png belows.
+
+   * Go to [Tiny PNG Website](https://tinypng.com/) ![Tiny PNG Website](images/readme/Icon_Deployment.png)
+
+
+7. In order to get the right colouring theme, I used to search it from flatuicolors and adobe color. Here are the links.
+
+    * Go to [Flatuicolors Website](https://flatuicolors.com/) ![Flatuicolors Website](images/readme/Icon_Deployment.png)
+
+    * Go to [Adobe Color Website](https://color.adobe.com/create/color-wheel) ![Adobe Color Website](images/readme/Icon_Deployment.png)
+
+
+8. I want to inform how I set up the social media button on my project and how it will be. This design is simple but it looks pretty good only by using HTML and CSS, no need to implement JavaScript also. These below are the codings and the result.
+
+    ![HTML Code](images/readme/How_to_Set_Up_Social_Media_Buttons_1.png)
+
+    ![CSS Code](images/readme/How_to_Set_Up_Social_Media_Buttons_2.png)
+
+    ![Result](images/readme/How_to_Set_Up_Social_Media_Buttons_3.png)
+
 
 ***
 
@@ -94,11 +186,10 @@ Before sign up to netlify, make sure you have a github account and had push your
 
    ![Choose Project](images/readme/Deploy_Netlify_7.png)
 
-   ![Deploy Project](images/readme/Deploy_Netlify_8.png)
 
 5. After deploy the site, then the deploy link will appear and it will be automatically refreshed every time you push "project" to your GitHub.
    
-   ![Link Deploy](images/readme/Deploy_Netlify_9.png)
+   ![Link Deploy](images/readme/Deploy_Netlify_8.png)
 
 
 
@@ -123,50 +214,32 @@ Please do a research which domain site do you prefer to purchase based on the pr
    ![Link Domain](images/readme/Beli_Domain_5_New%20-%20Copy.png)
     
 
-## Setting Up DNS and Connect Domain to Netlify ![Setting_DNS](images/readme/Setting_DNS.png)
+## Connect Domain to Netlify ![Setting_DNS](images/readme/Setting_DNS.png)
 The Domain Name System (DNS) turns domain names into IP addresses, which browsers use to load internet pages. Every device connected to the internet has its own IP address, which is used by other devices to locate the device.
 
 1. Go to your Netlify account, choose your deploy site.
    
-   ![Choose Site Deploy](images/readme/Connect_Netlify_Niagahoster_1_New.png)
+   ![Choose Site Deploy](images/readme/Connect_Netlify_Niagahoster_1.png)
 
-2. Click Menu "Domain Management" to "Add a Domain" and verify your domain from Niagahoster to Netlify's deploy site. 
+2. Click Menu "Domain Management" to "Add a Domain" and verify your domain from Niagahoster to Netlify's deploy site. Previously, i have used the domain and now i also want to add subdomain from it, as follows.
    
-   ![Add Domain](images/readme/Connect_Netlify_Niagahoster_2_New1.png)
+   ![Add Domain](images/readme/Connect_Netlify_Niagahoster_2.png)
 
-   ![Verify Domain](images/readme/Connect_Netlify_Niagahoster_2_New2.png)
+   ![Verify Domain](images/readme/Connect_Netlify_Niagahoster_3.png)
+
+   ![Add Sub Domain](images/readme/Connect_Netlify_Niagahoster_4.png)
    
-3. After verify domain, then click "Awaiting External DNS" and "Set Up Netlify DNS for your domain" plus "Verify" it, as follows.
    
-   ![Awaiting External DNS](images/readme/Connect_Netlify_Niagahoster_4_New.png) 
-
-   ![Set Up Netlify DNS](images/readme/Connect_Netlify_Niagahoster_5_New.png)
-
-   ![Verify Domain to Netlify](images/readme/Connect_Netlify_Niagahoster_6_New.png)
-
-4. Next step are Updating your domain's nameserver from Netlify to Niagahoster as follows on the screenshots below.
-
-   ![Add Domain to Netlify](images/readme/Connect_Netlify_Niagahoster_7_New.png) 
-
-   ![Add DNS Records](images/readme/Connect_Netlify_Niagahoster_8_New.png) 
-
-   ![List Nameservers From Netlify](images/readme/Connect_Netlify_Niagahoster_9_New.png) 
-
-   ![Domain at Niagahoster](images/readme/Connect_Netlify_Niagahoster_10_New.png) 
-
-   ![Change Domain Nameservers](images/readme/Connect_Netlify_Niagahoster_11_New.png) 
-
-   ![Change Nameservers From Niagahoster to Netlify](images/readme/Connect_Netlify_Niagahoster_12_New.png) 
-
-   ![Nameservers Changed](images/readme/Connect_Netlify_Niagahoster_13_New.png) 
-
-5. Go back to your Netlify account and verify DNS configuration, then wait for external DNS propagation. Probably 1 to 2 hours or max. 24 hours until your domain's link will be ready to publish.  
+3. I had set up netlify DNS to domain on previous week. So now, I don't need to set up the DNS again. Just make sure the subdomain link it's working and has security on it. Then your subdomain address ready to use. Before that, please follow this step belows.
    
-   ![Verify DNS Configuration](images/readme/Connect_Netlify_Niagahoster_15_New.png) 
+   ![Primary Domain](images/readme/Connect_Netlify_Niagahoster_5.png) 
 
-   ![Wait Fpr External DNS Propagation](images/readme/Connect_Netlify_Niagahoster_16_New.png) 
+   ![Check Security Domain](images/readme/Connect_Netlify_Niagahoster_6.png)
 
-   ![Link Domain Ready](images/readme/Connect_Netlify_Niagahoster_17_New.png) 
+   ![Certificate Valid](images/readme/Connect_Netlify_Niagahoster_7.png)
+
+    ![Add Domain to Netlify](images/readme/Connect_Netlify_Niagahoster_8.png) 
+
 
 
 You can check domain of this project by clicking this link : [Domain Niagahoster](https://milestone1.sarranut.online/) ![Domain Icon](images/readme/Domain_Icon.png)
