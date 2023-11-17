@@ -132,7 +132,7 @@ There are few steps to Building A Simple Project Website, there are Determine Th
 4. After this you can deploy the project to Netlify. If there is any revision on your project, you can submit again the revision into repository by following step 2 and 3 without clone the repository.
 
 
-5. I want to explain on how i got the icons, fonts, and images to running this project. You can click this link below to use it too.
+5. I want to share on how i got the icons, fonts, and images to running this project. You can click this link below to use it too.
 
    * Go to [Flaticon Website](https://www.flaticon.com/icons) ![Flaticon Website](images/readme/Icon_Deployment.png)
 

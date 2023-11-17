@@ -403,7 +403,7 @@
   }
   
   .tombol-sosmed a:hover::before{
-    trasnform: scale(0);
+    transform: scale(0);
   }
 
   .tombol-sosmed a i{
